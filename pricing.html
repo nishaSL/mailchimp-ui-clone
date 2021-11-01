@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <title>mailchimp clone</title>
+  </head>
+  <body>
+    <!-- navbar starts -->
+
+    <section style="background-color: #ffe01b">
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+        style="max-width: 1519.2px; top: 0px"
+      >
+        <a
+          href="index.html"
+          class="navbar-brand order-1 order-lg-2 font-weight-bold"
+          >mailchimp</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse order-2 order-lg-1"
+          id="navbarText"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item cart">
+              <a class="nav-link" id="dropdown1" data-toggle="dropdown" aria-expanded="false">Product</a>     
+              <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                <li class="dropdown-item" >Get Your Business Online</li>
+                <li class="dropdown-item" >Market Your Business</li>
+                <li  class="dropdown-divider"></li>
+                <li class="dropdown-item" >Audience Management</li>
+                <li class="dropdown-item" >Creative Tools</li>
+                <li class="dropdown-item" >Marketing Automation</li>
+                <li class="dropdown-item" >Insights & Analytics</li>
+                <li  class="dropdown-divider"></li>
+                <li class="dropdown-item" >For Freelancers & Agencies</li>
+                <li class="dropdown-item" >For Developers</li>
+                <li class="dropdown-item" >Hire A Trusted Partner</li>
+              </ul> 
+            </li>
+            <li class="nav-item cart">
+                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-expanded="false">Resource</a>     
+                <ul class="dropdown-menu" aria-labelledby="dropdown2">
+                <li class="dropdown-item" >Mailchimp 101</li>
+                <li class="dropdown-item" >Guides & Tutorials</li>
+                <li class="dropdown-item" >Marketing Tips</li>
+                <li class="dropdown-item" >Case Studies</li>
+                <li  class="dropdown-divider"></li>
+                <li class="dropdown-item" >For Freelancers & Agencies</li>
+                <li class="dropdown-item" >For Developers</li>
+                <li class="dropdown-item" >Hire A Trusted Partner</li>
+              </ul> 
+            </li>
+            <li class="nav-item cart">
+              <a data-toggle="modal" data-target="#cart" class="nav-link"
+                >Inspritation</a
+              >
+            </li>
+            <a class="nav-link" href="/pricing.html">Pricing</a>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse order-3 order-lg-3"
+          id="navbarText"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a data-toggle="modal" data-target="#search" class="nav-link"
+                ><i class="icon-search"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">
+                <button type="button" class="btn btn-outline-dark">
+                  Log In
+                </button></a
+              >
+            </li>
+            <li class="nav-item cart">
+              <a href="/signup.html" data-toggle="modal" data-target="#cart" class="nav-link">
+                <button type="button" class="btn btn-info">
+                  Sign Up Free
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div
+          class="text-center"
+          style="padding-top: 5rem; padding-bottom: 5rem"
+        >
+          <h1 class="font-weight-bold">
+            Marketing smarts for growing businesses
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- navbar ends   -->
+
+    <section>
+      <div class="col-lg-9 mx-auto text-center">
+        <h5
+          class="display-3 mt-3 pt-5 font-weight-bold"
+          style="line-height: 1.1; font-size: 1.3rem; letter-spacing: 0"
+        >
+          Featured Product:
+        </h5>
+        <p class="lead mx-0 mx-lg-15 p-4">
+          Create unlimited one-on-one and group services with our new Advanced
+          Scheduling add-on for $8/month.
+        </p>
+        <button type="button" class="btn btn-info btn-lg mb-5">Buy Now</button>
+      </div>
+    </section>
+
+    <!-- pricing section starts -->
+    <section>
+      <div class="row">
+        <div class="col-lg-3 p-0">
+          <div class="card">
+            <div class="card-body m-3">
+              <h2>Premium</h2>
+              <p>Advanced features for pros who need more customization.</p>
+              <h1 class="card-title pricing-card-title m-5">
+                <i class="fa fa-rupee-sign"></i>23,000<small
+                  class="text-muted fw-light"
+                  >/mo</small
+                >
+              </h1>
+              <button type="button" class="w-100 btn btn-lg btn-info">
+                Sign up for free
+              </button>
+              <ul class="list-unstyled m-3 mb-4">
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Advanced Segmentation
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Multivariate Testing
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Comparative Reporting
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Unlimited Seats
+                </li>
+                <li class="m-2"><i class="fas fa-check"></i> Phone Support</li>
+              </ul>
+              <a href="">About Premium</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 p-0">
+          <div class="card">
+            <div class="card-body m-3">
+              <h2>Standard</h2>
+              <p>
+                Data-driven automation and optimization tools for businesses
+                that want to grow.
+              </p>
+              <h1 class="card-title pricing-card-title m-5">
+                <i class="fa fa-rupee-sign"></i>1500<small
+                  class="text-muted fw-light"
+                  >/mo</small
+                >
+              </h1>
+              <button type="button" class="w-100 btn btn-lg btn-info">
+                Buy Now
+              </button>
+              <ul class="list-unstyled m-3 mb-4">
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Customer Journey Builder
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Send Time Optimization
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Behavioral Targeting
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Custom Templates
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Dynamic Content
+                </li>
+              </ul>
+              <a href="">About Premium</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 p-0">
+          <div class="card">
+            <div class="card-body m-3">
+              <h2>Dynamic Content</h2>
+              <p>
+                Great for email-only senders who want around-the-clock support.
+              </p>
+              <h1 class="card-title pricing-card-title m-5">
+                <i class="fa fa-rupee-sign"></i>770<small
+                  class="text-muted fw-light"
+                  >/mo</small
+                >
+              </h1>
+              <button type="button" class="w-100 btn btn-lg btn-info">
+                Buy Now
+              </button>
+              <ul class="list-unstyled m-3 mb-4">
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Email Templates
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Multi-Step Journeys
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Custom Branding
+                </li>
+                <li class="m-2"><i class="fas fa-check"></i> A/B Testing</li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> 24/7 Email & Chat Support
+                </li>
+              </ul>
+              <a href="">About Premium</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 p-0">
+          <div class="card">
+            <div class="card-body m-3">
+              <h2>Free</h2>
+              <p>
+                All the multi-channel tools you need to build your business and
+                grow.
+              </p>
+              <h1 class="card-title pricing-card-title m-5">
+                <i class="fa fa-rupee-sign"></i>0<small
+                  class="text-muted fw-light"
+                  >/mo</small
+                >
+              </h1>
+              <button type="button" class="w-100 btn btn-lg btn-info">
+                Buy Now
+              </button>
+              <ul class="list-unstyled m-3 mb-4">
+                <li class="m-2"><i class="fas fa-check"></i> Marketing CRM</li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Creative Assistant
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Website Builder
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Mailchimp Domain
+                </li>
+                <li class="m-2">
+                  <i class="fas fa-check"></i> Forms & Landing Pages
+                </li>
+              </ul>
+              <a href="">About Premium</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing section ends -->
+
+
+    <section>
+
+        
+    <div class="container marketing my-7 p-5">
+        <div class="row featurette d-flex justify-content-left align-items-center  aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-6 order-1 order-lg-2 p-5" >
+              <h5 class="featurette-heading">
+                Also included: Free tools for getting your business online
+              </h5>
+              <p class="lead pr-5 mt-5">
+                All Marketing plans come with Free website and commerce features, so you can build your dream online presence. But if you want more advanced tools for selling and scheduling, try combining your Marketing plan with a paid Websites & Commerce plan.
+              </p>
+              <button type="button" class="btn btn-outline-success mt-4">See Websites & Commerce plans</button>
+              </div>
+            <div class="col-md-6 order-2 order-lg-1 pr-5">
+              <img
+                class="
+                  bd-placeholder-img bd-placeholder-img-lg
+                  featurette-image
+                  img-fluid
+                  mx-auto"
+                src="images/image17.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        
+    <div class="container marketing my-7 p-5">
+        <div class="row featurette d-flex justify-content-left align-items-center  aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-6 order-1 order-lg-2 pl-5" >
+              <h5 class="featurette-heading">
+                Prefer to pay as you go?
+              </h4>
+              <p class="lead pr-5 mt-5">
+                Instead of paying a monthly recurring charge, you can buy email credits as needed through our Pay As You Go plan. It's best for infrequent senders.
+              </p>
+              <button type="button" class="btn btn-outline-success mt-4">Learn Mores</button>
+              </div>
+            <div class="col-md-6 order-2 order-lg-1 pr-5">
+              <img
+                class="
+                  bd-placeholder-img bd-placeholder-img-lg
+                  featurette-image
+                  img-fluid
+                  mx-auto"
+                src="images/image18.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        
+    <div class="container marketing my-7 p-5">
+        <div class="row featurette d-flex justify-content-left align-items-center  aos-init aos-animate" data-aos="fade-up">
+            <div class="col-md-6 order-1 order-lg-2 pl-5" >
+              <h5 class="featurette-heading">
+               Need to help clients use Mailchimp?
+              </h5>
+              <p class="lead pr-5 mt-5">
+                Unlock the tools you need to get work done for clients when you sign up through Mailchimp & Co, our community for freelancers and agencies. It’s free to join with any Mailchimp plan.
+              </p>
+              <button type="button" class="btn btn-outline-success mt-4">Get Started</button>
+              </div>
+            <div class="col-md-6 order-2 order-lg-1 pr-5">
+              <img
+                class="
+                  bd-placeholder-img bd-placeholder-img-lg
+                  featurette-image
+                  img-fluid
+                  mx-auto"
+                src="images/image19.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+    
+    </section>
+
+
+     <!-- footer starts -->
+  
+  <footer class="bg-primary-dark border-top border-white-10" style="background-color: rgba(170, 170, 170, 0.144);">
+
+    <div class="container">
+      <div class="row content-space-1 my-5">
+        <div class="col-lg-3 mb-7 mb-lg-0">
+          <div class="col-sm mb-7 mb-sm-0">
+            <span class="text-black mb-3">Company</span>
+            <ul class="list-unstyled list-py-1 mb-0">
+              <li><a class="link-sm link-light text-black " href="#">About</a></li>
+              <li><a class="link-sm link-light text-black " href="#">Blog</a></li>
+              <li><a class="link-sm link-light text-black " href="#">Customers</a></li>
+              <li><a class="link-sm link-light text-black " href="#">Hire us</a></li>
+            </ul>
+            
+          </div>
+        </div>
+       
+        <div class="col-sm mb-7 mb-sm-0">
+          <span class="text-black mb-3">Features</span>
+
+         
+           <ul class="list-unstyled list-py-1 mb-0 text-dark">
+              <li><a class="link-sm  text-black " href="#">Press</a></li>
+              <li><a class="link-sm link-light text-black " href="#">Release Notes</a></li>
+              <li><a class="link-sm link-light text-black " href="#">Integrations</a></li>
+              <li><a class="link-sm link-light text-black " href="#">Pricing</a></li>
+          </ul>
+         
+        </div>
+      
+
+        <div class="col-sm mb-7 mb-sm-0">
+          <span class="text-cap text-primary-light">Documentation</span>        
+          <ul class="list-unstyled list-py-1 mb-0">
+            <li><a class="link-sm link-light text-black " href="#">Support</a></li>
+            <li><a class="link-sm link-light text-black " href="#">Docs</a></li>
+            <li><a class="link-sm link-light text-black " href="#">Status</a></li>
+            <li><a class="link-sm link-light text-black " href="#">API Reference</a></li>
+            <li><a class="link-sm link-light text-black " href="#">Tech Requirements</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm">
+          <span class="text-cap text-primary-light">Resources</span>
+          <ul class="list-unstyled list-py-1 mb-5">
+            <li><a class="link-sm link-light text-black " href="#"><i class="bi-question-circle-fill me-1"></i> Help</a></li>
+            <li><a class="link-sm link-light text-black " href="#"><i class="bi-person-circle me-1"></i> Your Account</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm">
+          <span class="text-cap text-primary-light">Legal</span>
+          <ul class="list-unstyled list-py-1 mb-5">
+            <li><a class="link-sm link-light" href="#">Terms of use</a></li>
+            <li><a class="link-sm link-light" href="#">Privacy policy <i class="bi-box-arrow-up-right ms-1"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-top border-black-10"></div>
+
+      <div class="row align-items-md-end py-5">
+        <div class="col-md mb-3 mb-md-0">
+          <p class="text-black mb-0">© mailchimps.2001-2021  All rights reserved.</p>
+        </div>
+
+        <div class="col-md d-md-flex justify-content-md-end" style="color: black;">
+          <!-- Socials -->
+          <ul class="list-inline mb-0" >
+            <li class="list-inline-item">
+              <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                <i class="bi-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                <i class="bi-github"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                <i class="bi-slack"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- End Socials -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
